@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>War</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="titles-container">
+            <h1>Game Of War</h1>
+            <h3 id="remaining-cards"></h3>
+        </div>
+        <div id="cards-container">
+            <div class="card-placeholder"></div>
+            <div class="card-placeholder"></div>
+        </div>
+        <div class="score-container">
+            <span class="player-score">Player: 0</span>
+            <span class="computer-score">Computer: 0</span>
+        </div>
+        <div class="button-container">
+            <button class="btn" id="new-deck">New Deck, Please!</button>
+            <button class="btn hide" id="draw-cards">Draw</button>
+            <button class="btn" id="new-game">New Game</button>
+        </div>
+        <script src="app.js"></script>
+    </div>
+</body>
+</html>
